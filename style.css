@@ -229,8 +229,6 @@ div {
     background: linear-gradient(to right, var(--green-color), var(--blue-color));
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);    
-    /* display: flex;
-    flex-wrap: wrap; */
   }
   .container div:nth-child(1) {
     grid-column: 1 / 2;
