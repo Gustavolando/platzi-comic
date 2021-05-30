@@ -34,14 +34,10 @@ div {
   height: 100vh;
 }
 .container div {
-  background: var(--blue-color);
   background: rgba(0, 0, 0, 0);
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
 }
 .container div img {
-  outline: 2px solid black !important;  
+  outline: 2px solid black;  
 }
 .container div:nth-child(1) {
   grid-column: 1 / 3;
