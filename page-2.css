@@ -75,6 +75,16 @@ div {
   grid-column: 5 / 6;
   grid-row: 3 / 4;
 }
+.container div:nth-child(10) {
+  text-align: left;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  /* position: static; */
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  align-items: flex-end;
+}
 .container div:nth-child(1) img {
   width: 32vh;
 }
@@ -101,6 +111,10 @@ div {
 }
 .container div:nth-child(9) img {
   width: 32vh;
+}
+.container div:nth-child(10) img {
+  width: 16vh;
+  outline: none;
 }
 .animated {
   animation-duration: 2.5s;
